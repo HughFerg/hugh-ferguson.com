@@ -4,8 +4,8 @@ title: Hugh Ferguson
 description: > # this means to ignore newlines until "baseurl:"
   A place for my ideas, projects, and current endeavors. 
 permalink: ':title/'
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://hugh-ferguson.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Social
 linkedin: hughferg
@@ -23,7 +23,7 @@ paginate_path: /page:num/
 
 # Build settings
 markdown: kramdown
-gems:
+plugins:
   - jekyll-feed
   - jekyll-paginate
 exclude:
